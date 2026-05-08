@@ -1,0 +1,208 @@
+/* ================= COMMON ================= */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.section-title h2 {
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+.section-title p {
+    color: #666;
+}
+
+/* ================= HERO ================= */
+
+.about-hero {
+    height: 85vh;
+    background: url('../images/about-bg.jpg') no-repeat center/cover;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* OVERLAY */
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+/* CONTENT */
+.hero-content {
+    position: relative;
+    color: white;
+    text-align: center;
+    max-width: 850px;
+}
+
+.hero-content h1 {
+    font-size: 65px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.hero-content span {
+    color: orange;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* ================= OUR STORY ================= */
+
+.our-story {
+    padding: 100px 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+/* IMAGE */
+
+.story-image img {
+    width: 500px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* CONTENT */
+.story-content {
+    width: 500px;
+}
+
+.story-content h2 {
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.story-content p {
+    color: #555;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+/* BUTTON */
+.story-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: orange;
+    color: white;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.story-btn:hover {
+    background: #ff8800;
+}
+
+/* ================= WHY US ================= */
+
+.why-us {
+    padding: 100px 60px;
+    background: #f5f7fb;
+}
+
+/* GRID */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+/* CARD */
+.feature-card {
+    background: white;
+    padding: 35px 25px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+    transition: 0.4s;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+.feature-card h3 {
+    color: orange;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    color: #666;
+    line-height: 1.7;
+}
+
+/* ================= QUOTE SECTION ================= */
+
+.travel-quote {
+    padding: 120px 60px;
+    background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url('../images/travel-quote.jpg') no-repeat center/cover;
+
+    text-align: center;
+}
+
+/* CONTENT */
+.quote-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.quote-content h2 {
+    color: white;
+    font-size: 42px;
+    line-height: 1.7;
+    font-weight: 500;
+}
+
+/* ================= STATS ================= */
+
+.about-stats {
+    padding: 100px 60px;
+    background: #111;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+/* CARD */
+.stat-card {
+    background: rgba(255,255,255,0.08);
+    padding: 40px 20px;
+    border-radius: 18px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    transition: 0.4s;
+}
+
+.stat-card:hover {
+    transform: translateY(-10px);
+}
+
+/* TEXT */
+.stat-card h2 {
+    color: orange;
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+.stat-card p {
+    color: #ddd;
+}
