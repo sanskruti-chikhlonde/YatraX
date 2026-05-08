@@ -1,0 +1,273 @@
+/*  COMMON  */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.section-title h2 {
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+.section-title p {
+    color: #666;
+}
+
+/* HERO */
+
+.trip-hero {
+    height: 90vh;
+    background: url('../images/travel-bg.jpg') no-repeat center/cover;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+/* HERO CONTENT */
+.hero-content {
+    position: relative;
+    color: white;
+    text-align: center;
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+
+.hero-content span {
+    color: orange;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+/* BUTTON */
+.hero-btn {
+    background: orange;
+    color: white;
+    padding: 14px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    background: #ff8800;
+}
+
+/* TRAVEL MOOD  */
+
+.travel-mood {
+    padding: 90px 60px;
+}
+
+/* GRID */
+.mood-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+/* CARD */
+.mood-card {
+    background: white;
+    padding: 40px 25px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+    transition: 0.4s;
+}
+
+.mood-card:hover {
+    transform: translateY(-10px);
+}
+
+.mood-card h3 {
+    color: orange;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.mood-card p {
+    color: #666;
+    line-height: 1.7;
+}
+
+/*  BEST TIME */
+
+.best-time {
+    padding: 90px 60px;
+    background: #f5f7fb;
+}
+
+/* GRID */
+.season-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+/* CARD */
+.season-card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+    transition: 0.4s;
+}
+
+.season-card:hover {
+    transform: translateY(-10px);
+}
+
+.season-card h3 {
+    color: orange;
+    margin-bottom: 15px;
+}
+
+/* ================= TRENDING ================= */
+
+.trending {
+    padding: 90px 60px;
+}
+
+/* GRID */
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* CARD */
+.destination-card {
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+    transition: 0.4s;
+}
+
+.destination-card:hover {
+    transform: translateY(-10px);
+}
+
+.destination-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+/* CONTENT */
+.destination-content {
+    padding: 20px;
+}
+
+.destination-content h3 {
+    margin-bottom: 10px;
+    color: orange;
+}
+
+.destination-content p {
+    color: #666;
+}
+
+/* ================= PLANNER SECTION ================= */
+
+.planner-section {
+    padding: 100px 60px;
+    background: #111;
+    color: white;
+}
+
+/* BOX */
+.planner-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+/* TEXT */
+.planner-text {
+    width: 450px;
+}
+
+.planner-text h2 {
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.planner-text p {
+    line-height: 1.8;
+    color: #ccc;
+}
+
+/* FORM */
+.planner-form {
+    width: 500px;
+    background: white;
+    padding: 40px;
+    border-radius: 18px;
+}
+
+/* FORM LAYOUT */
+.planner-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* INPUTS */
+.planner-form input,
+.planner-form select,
+.planner-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* DATE GROUP */
+.date-group {
+    display: flex;
+    gap: 15px;
+}
+
+/* TEXTAREA */
+.planner-form textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* BUTTON */
+.planner-form button {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.planner-form button:hover {
+    background: #ff8800;
+}
