@@ -72,8 +72,8 @@
 /* IMAGE */
 
 .story-image img {
-    width: 500px;
-    height: 550px;
+    width: 700px;
+    height: 600px;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -110,7 +110,7 @@
     background: #ff8800;
 }
 
-/* ================= WHY US ================= */
+/* -----WHY US----- */
 
 .why-us {
     padding: 100px 60px;
@@ -148,7 +148,7 @@
     line-height: 1.7;
 }
 
-/* ================= QUOTE SECTION ================= */
+/* ------ QUOTE SECTION ------ */
 
 .travel-quote {
     padding: 120px 60px;
@@ -171,7 +171,7 @@
     font-weight: 500;
 }
 
-/* ================= STATS ================= */
+/* ------ STATS ------ */
 
 .about-stats {
     padding: 100px 60px;
