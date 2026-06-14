@@ -9,13 +9,14 @@
 body {
     background-color: #f5f7fb;
     color: #333;
+    overflow-x:hidden;
 }
 
 /* NAVBAR */
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
     padding: 18px 60px;
     background: #111;
@@ -24,11 +25,24 @@ body {
     z-index: 1000;
 }
 
+/* HAMBURGER */
+#menu-toggle{
+    display:none;
+}
+
+.hamburger{
+    display:none;
+    color:white;
+    font-size:26px;
+    cursor:pointer;
+}
+
 /* LOGO */
 .logo {
     color: white;
     font-size: 28px;
     font-weight: 600;
+    margin-right:auto;
 }
 
 .logo span {
@@ -36,6 +50,11 @@ body {
 }
 
 /* CENTER NAV */
+.nav-center{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+}
 .nav-center ul {
     display: flex;
     list-style: none;
@@ -71,9 +90,10 @@ body {
 
 /* RIGHT SIDE */
 .nav-right {
-    display: flex;
-    gap: 15px;
-    align-items: center;
+    margin-left:auto;
+    display:flex;
+    gap:15px;
+    align-items:center;
 }
 
 /* LOGIN */
@@ -82,7 +102,6 @@ body {
     color: white;
     transition: 0.3s;
 }
-
 .login-btn:hover {
     color: orange;
 }
@@ -145,7 +164,7 @@ body {
     background: #ff8800;
 }
 
-/* ================= FOOTER ================= */
+/*------- FOOTER ------ */
 
 .footer {
     background:
@@ -244,7 +263,89 @@ body {
     text-align: center;
     padding: 25px;
 }
-
 .footer-bottom p {
     color: #aaa;
+}
+.mobile-buttons{
+    display:none;
+}
+
+/* ------- TABLET ------- */
+
+@media (max-width: 992px){
+
+    .navbar{
+        padding: 15px 30px;
+    }
+    .nav-center ul{
+        gap: 20px;
+    }
+    .footer-container{
+        grid-template-columns: repeat(2,1fr);
+        padding: 0 30px 50px;
+    }
+    .cta-content h2{
+        font-size: 40px;
+    }
+}
+
+/* ------MOBILE ------*/
+
+@media(max-width:768px){
+
+.navbar{
+    padding:15px 20px;
+    flex-direction:row;
+}
+.logo{
+    margin-right:auto;
+}
+.hamburger{
+    display:block;
+}
+
+/* hide desktop buttons */
+.nav-right{
+    display:none;
+}
+.nav-center{
+
+    position:absolute;
+    top:70px;
+    left:0;
+    width:100%;
+    background:#111;
+    display:none;
+    transform:none;   
+}
+.nav-center ul{
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+    padding:25px 0;
+    margin:0;
+}
+
+
+/* show menu */
+#menu-toggle:checked ~ .nav-center{
+    display:block;
+}
+
+
+/* mobile login signup */
+
+.mobile-buttons{
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    padding-bottom:25px;
+
+}
+
 }
