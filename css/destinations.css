@@ -1,4 +1,4 @@
-/* ================= PAGE HEADER ================= */
+/* ----- PAGE HEADER ----- */
 
 .page-header {
     text-align: center;
@@ -15,7 +15,7 @@
     font-size: 17px;
 }
 
-/* ================= DESTINATIONS SECTION ================= */
+/* ----- DESTINATIONS SECTION ----- */
 
 .destinations-page {
     padding: 40px 60px 100px;
@@ -29,7 +29,7 @@
     gap: 30px;
 }
 
-/* ================= CARD ================= */
+/* ----- CARD ----- */
 
 .card {
     position: relative;
@@ -78,7 +78,7 @@
     z-index: 1;
 }
 
-/* ================= CARD CONTENT ================= */
+/* ----- CARD CONTENT ----- */
 
 .card-content {
     position: absolute;
@@ -117,4 +117,86 @@
 
     font-size: 14px;
     font-weight: 500;
+}
+
+/* ----- TABLET RESPONSIVE ----- */
+
+@media (max-width: 992px){
+
+    .page-header{
+        padding: 60px 20px 40px;
+    }
+
+    .page-header h1{
+        font-size: 42px;
+    }
+
+    .destinations-page{
+        padding: 40px 30px 80px;
+    }
+
+    .destination-grid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .card{
+        height: 380px;
+    }
+
+    .card-content{
+        padding: 20px;
+    }
+
+    .card-content h3{
+        font-size: 26px;
+    }
+}
+
+/* ----- MOBILE RESPONSIVE ----- */
+
+@media (max-width: 768px){
+    .page-header{
+        padding: 45px 15px 30px;
+    }
+
+    .page-header h1{
+        font-size: 32px;
+    }
+
+    .page-header p{
+        font-size: 15px;
+    }
+
+    .destinations-page{
+        padding: 30px 20px 60px;
+    }
+
+    .destination-grid{
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .card{
+        height: 400px;
+        border-radius: 18px;
+    }
+
+    .card-content{
+        padding: 20px;
+    }
+
+    .card-content h3{
+        font-size: 25px;
+    }
+
+    .location{
+        font-size: 14px;
+    }
+
+    .price{
+        padding: 8px 15px;
+        font-size: 13px;
+    }
+
 }

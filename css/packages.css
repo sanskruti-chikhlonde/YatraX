@@ -166,3 +166,72 @@
     font-size: 12px;
     border-radius: 5px;
 }
+
+/* ------- TABLET RESPONSIVE -------- */
+
+@media (max-width:992px){
+    .page-header{
+        padding:60px 20px 40px;
+    }
+    .page-header h1{
+        font-size:42px;
+    }
+    .packages{
+        padding:40px 30px;
+        gap:25px;
+    }
+    .package-card{
+        width:300px;
+    }
+}
+
+
+
+/* ------- MOBILE RESPONSIVE ------- */
+
+@media(max-width:768px){
+    .page-header{
+        padding:45px 15px 30px;
+        text-align:center;
+    }
+    .page-header h1{
+        font-size:32px;
+    }
+    .page-header p{
+        font-size:15px;
+    }
+    .packages{
+
+        flex-direction:column;
+        align-items:center;
+        gap:30px;
+        padding:30px 20px 60px;
+
+    }
+    .package-card{
+
+        width:100%;
+        max-width:350px;
+
+        padding:30px 20px;
+
+    }
+    .package-card h3{
+        font-size:24px;
+    }
+    .package-card h2{
+        font-size:32px;
+    }
+    .package-card ul li{
+        font-size:14px;
+    }
+    .package-card button{
+
+        width:100%;
+        padding:12px;
+
+    }
+    .tag{
+        font-size:13px;
+    }
+}
