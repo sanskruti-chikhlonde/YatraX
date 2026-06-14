@@ -206,3 +206,130 @@
 .stat-card p {
     color: #ddd;
 }
+
+/* ----- TABLET ----- */
+
+@media (max-width: 992px){
+    .about-hero{
+        height:75vh;
+    }
+    .hero-content{
+        padding:0 30px;
+    }
+    .hero-content h1{
+        font-size:52px;
+    }
+
+    /* STORY */
+    .our-story{
+        padding:80px 40px;
+        gap:40px;
+    }
+    .story-image img{
+        width:100%;
+        height:500px;
+    }
+    .story-content{
+        width:100%;
+        text-align:center;
+    }
+    .story-content h2{
+        font-size:40px;
+    }
+
+    /* WHY US */
+    .why-us{
+        padding:80px 40px;
+    }
+    .features-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    /* QUOTE */
+    .travel-quote{
+        padding:90px 40px;
+    }
+    .quote-content h2{
+        font-size:36px;
+    }
+
+    /* STATS */
+    .about-stats{
+        grid-template-columns:repeat(2,1fr);
+        padding:80px 40px;
+    }
+}
+
+
+
+/* ----- MOBILE ----- */
+
+@media (max-width:768px){
+
+    /* HERO */
+    .about-hero{
+        height:70vh;
+    }
+    .hero-content{
+        padding:0 20px;
+    }
+    .hero-content h1{
+        font-size:36px;
+    }
+    .hero-content p{
+        font-size:15px;
+    }
+
+    /* COMMON TITLE */
+    .section-title h2{
+        font-size:30px;
+    }
+
+    /* STORY */
+    .our-story{
+        padding:60px 20px;
+        flex-direction:column;
+    }
+    .story-image img{
+        width:100%;
+        height:300px;
+    }
+    .story-content{
+        width:100%;
+    }
+    .story-content h2{
+        font-size:32px;
+    }
+    .story-content p{
+        font-size:15px;
+    }
+
+    /* WHY US */
+    .why-us{
+        padding:60px 20px;
+    }
+    .features-grid{
+        grid-template-columns:1fr;
+    }
+    .feature-card{
+        padding:30px 20px;
+    }
+
+    /* QUOTE */
+    .travel-quote{
+        padding:70px 20px;
+    }
+    .quote-content h2{
+        font-size:26px;
+        line-height:1.5;
+    }
+
+    /* STATS */
+    .about-stats{
+        grid-template-columns:1fr;
+        padding:60px 20px;
+    }
+    .stat-card h2{
+        font-size:36px;
+    }
+}
