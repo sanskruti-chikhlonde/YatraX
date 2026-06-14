@@ -1,4 +1,4 @@
-/* ================= COMMON ================= */
+/* ------ COMMON ------ */
 
 .section-title {
     text-align: center;
@@ -14,7 +14,7 @@
     color: #666;
 }
 
-/* ================= HERO ================= */
+/* ------ HERO ------ */
 
 .about-hero {
     height: 85vh;
@@ -57,7 +57,7 @@
     line-height: 1.8;
 }
 
-/* ================= OUR STORY ================= */
+/* ------ OUR STORY ------ */
 
 .our-story {
     padding: 100px 60px;

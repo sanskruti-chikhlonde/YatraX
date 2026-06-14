@@ -1,5 +1,4 @@
 /* ----- PAGE HEADER ----- */
-
 .page-header {
     text-align: center;
     padding: 80px 20px 50px;
@@ -16,7 +15,6 @@
 }
 
 /* ----- DESTINATIONS SECTION ----- */
-
 .destinations-page {
     padding: 40px 60px 100px;
     background: #f5f7fb;
@@ -30,7 +28,6 @@
 }
 
 /* ----- CARD ----- */
-
 .card {
     position: relative;
     border-radius: 22px;
@@ -39,7 +36,6 @@
     height: 420px;
 
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-
     transition: 0.4s;
 }
 
