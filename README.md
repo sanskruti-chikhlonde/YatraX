@@ -20,8 +20,6 @@ YatraX is a responsive travel website that helps users explore destinations, dis
 
 ## Project Preview
 
-## Project Preview
-
 ![Yatra-X Preview](./images/screenshort/home.png)
 
 ![Yatra-X Preview](./images/screenshort/explore.png)
