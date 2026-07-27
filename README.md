@@ -18,21 +18,22 @@ YatraX is a responsive travel website that helps users explore destinations, dis
 - Google Fonts
 - Font Awesome
 
+## Project Preview
+
+## Project Preview
+
+![Yatra-X Preview](./images/screenshort/home.png)
+
+![Yatra-X Preview](./images/screenshort/explore.png)
+
+![Yatra-X Preview](./images/screenshort/packages.png)
+
 ## What I Learned
 
 - Creating responsive multi-page websites
 - Using CSS layouts, media queries, and hover effects
 - Organizing files and reusable components
 - Improving UI design and user experience
-
-## Project Structure
-
-YatraX/
-│
-├── HTML Pages
-├── CSS Files
-├── Images
-└── README.md
 
 ## Author
 
